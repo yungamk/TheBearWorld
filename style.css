@@ -109,10 +109,10 @@
     }
 
     .line {
-        width: 90%;
+        width: 80%;
         background-color: #000;
         height: 1px;
-        margin: 5% 5%;
+        margin: 5% 10%;
     }
 
     .line2 {
