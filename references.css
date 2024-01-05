@@ -27,9 +27,9 @@
 
     header {
         background-color: #4CAF50;
-        color: #fff;
         padding: 20px;
         text-align: center;
+        border-bottom: 2px solid #000;
     }
 
     a {
