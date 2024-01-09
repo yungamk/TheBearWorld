@@ -1,0 +1,128 @@
+
+    body { 
+    margin: auto;
+    width: 80vw;
+    font-family: arial;
+    border-left: 2px solid #000;
+    border-right: 2px solid #000;
+    background-color:lightgray;
+    }
+
+    .container {
+        display: flex;
+        width: 100%;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+
+    p {
+        margin: 2rem 3rem; 
+        line-height: 1.6;
+        font-size: 18px;
+    }
+
+    h1, h2, h3, aside {
+        margin: 1rem 2rem;
+    } 
+    
+    header {
+        background-color: #4CAF50;
+        color: #fff;
+        padding: 20px;
+        text-align: center;
+    }
+    
+    nav ul li {
+        display: inline;
+        margin-right: 15px;
+    }
+    
+    nav a {
+        text-decoration: none;
+        color: #333;
+        font-weight: bold;
+        transition: color 200ms linear;
+    }
+
+    nav a:hover {
+        color:#000;
+    }
+    
+    h2 {
+        color: #4CAF50;;
+        text-align: center;
+        font-size: 30px;
+    } 
+
+    h3 {
+        font-size: 22px;
+        text-align: center;
+    }
+
+    aside {
+        text-align: center;
+        font-size: 18px;
+    }
+   
+    table {
+        width: 50vw;
+        border-collapse: collapse;
+        text-align: center;
+    }
+    
+    th, td {
+        border: 2px solid grey;
+        padding: 8px;
+        font-size: 18px;
+    }
+    
+    caption {
+        font-weight: bold;
+        margin: 1rem 2rem 1rem 2rem;
+    }
+
+    .button {
+        display: flex;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+        padding-bottom: 60px;
+    }
+
+    .backtotop, .references {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 150px;
+        height: 50px;
+        text-align: center;
+        border-radius: 6px;
+        text-decoration: none;
+        font-size: 20px;
+        font-weight: bold;
+        color: #000;
+        background-color: #4CAF50;
+        transition: background 350ms linear;
+    }
+
+    .backtotop:hover, .references:hover {
+        background-color: hotpink;
+    }
+
+    .line {
+        width: 80%;
+        background-color: #000;
+        height: 1px;
+        margin: 5% 10%;
+    }
+
+    .line2 {
+        width: 80%;
+        background-color: #000;
+        height: 1px;
+        margin: 1.5% 10%; 
+    }
+
+    abbr:hover, aside {
+        cursor: pointer;
+    }
