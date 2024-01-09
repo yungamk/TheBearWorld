@@ -126,3 +126,7 @@
     abbr:hover, aside:hover {
         cursor: pointer;
     }
+
+    abbr {
+        text-decoration: underline;
+    }
