@@ -122,3 +122,7 @@
         height: 1px;
         margin: 1.5% 10%; 
     }
+
+   abbr:hover, aside {
+       cursor:pointer;
+   }    
