@@ -47,7 +47,7 @@
         border-radius: 8px;
         text-align: center;
         transition: background 250ms linear;
-        
+        color: #fff;
     }
 
     .title {
