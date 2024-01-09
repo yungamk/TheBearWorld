@@ -123,6 +123,6 @@
         margin: 1.5% 10%; 
     }
 
-    abbr:hover, aside {
+    abbr:hover, aside:hover {
         cursor: pointer;
     }
